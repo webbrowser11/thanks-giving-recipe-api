@@ -6,9 +6,9 @@ go to:
 `https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes`
 
 # how to use with curl
-get list:
+## get:
 `curl https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes`
-add:
+## add:
 ```
 curl -X POST https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes \
   -H "Content-Type: application/json" \
@@ -18,5 +18,5 @@ curl -X POST https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes \
     "steps": ["STEPS FOR YOUR RECIPE"]
   }'
 ```
-delete:
+## delete:
 `curl -X DELETE https://your-flask-api.vercel.app/thanksgivingrecipes/best-turkey-gravy`
