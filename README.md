@@ -43,5 +43,5 @@ in the request bar change it to GET if not already on GET and then enter this:
 [here](https://webbrowser11.github.io/thanks-giving-recipe-api/)
 
 ## website for usage:
-[endpoint here](https://thanks-giving-recipe-api.vercel.app)
-[usage link here](https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes)
+### [endpoint here](https://thanks-giving-recipe-api.vercel.app)
+### [usage link here](https://thanks-giving-recipe-api.vercel.app/thanksgivingrecipes)
