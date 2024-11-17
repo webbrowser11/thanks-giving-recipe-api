@@ -3,6 +3,13 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+def index():
+    return '''
+    <!DOCTYPE html>
+    <h1>endpoint</h1>
+    <p>endpoint for the thanks-giving-recipe-api by webbrowser11</p>
+    '''
+
 def recipe_is_valid(recipe):
     return (
         "name" in recipe and isinstance(recipe["name"], str) and
